@@ -19,7 +19,7 @@ stream.once('open', () => {
         count = count + 1;
       }
     }
-    stream.write("Total number of Overweight pepole: "+ count+"\n")
+    stream.write("Total number of Overweight people: "+ count+"\n")
     stream.end();
   });
   console.log("BMI Resport has been generated successfully in output.txt file");
