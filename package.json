@@ -1,0 +1,26 @@
+{
+  "name": "bmi",
+  "version": "1.0.0",
+  "description": "BMI calculator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fubuk-i/code-20210425-sanketdhone.git"
+  },
+  "author": "fubuki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fubuk-i/code-20210425-sanketdhone/issues"
+  },
+  "homepage": "https://github.com/fubuk-i/code-20210425-sanketdhone#readme",
+  "dependencies": {
+    "mocha": "^8.3.2"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  }
+}
